@@ -1,0 +1,65 @@
+{
+  "version": "5.2.14",
+  "connections": [
+    {
+      "id": "host.0b453f11-e5c6-4320-a8de-b2d0cf36b407.docker.virtualized.wsl",
+      "name": "WSL",
+      "label": "Custom WSL distribution",
+      "host": "docker.virtualized.wsl",
+      "engine": "docker",
+      "settings": {
+        "api": {
+          "baseURL": "http://localhost",
+          "connection": {
+            "uri": "",
+            "relay": ""
+          },
+          "autoStart": true
+        },
+        "program": {
+          "name": "docker",
+          "path": "",
+          "version": ""
+        },
+        "rootfull": false,
+        "mode": "mode.automatic",
+        "controller": {
+          "name": "wsl",
+          "path": "",
+          "version": "",
+          "scope": "You"
+        }
+      }
+    },
+    {
+      "id": "host.411bbc74-c0e5-41b3-bea5-2f73c713f080.docker.virtualized.wsl",
+      "name": "Linux",
+      "label": "Custom WSL distribution",
+      "host": "docker.virtualized.wsl",
+      "engine": "docker",
+      "settings": {
+        "api": {
+          "baseURL": "http://localhost",
+          "connection": {
+            "uri": "",
+            "relay": ""
+          },
+          "autoStart": true
+        },
+        "program": {
+          "name": "docker",
+          "path": "",
+          "version": ""
+        },
+        "rootfull": false,
+        "mode": "mode.automatic",
+        "controller": {
+          "name": "wsl",
+          "path": "",
+          "version": "",
+          "scope": "You"
+        }
+      }
+    }
+  ]
+}
